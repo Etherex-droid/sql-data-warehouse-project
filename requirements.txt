@@ -1,0 +1,11 @@
+# Database
+Microsoft SQL Server Express
+
+# Database Management Tool
+SQL Server Management Studio (SSMS)
+
+# Diagram and Documentation Tools
+drawio
+
+# Version Control
+git
