@@ -7,7 +7,7 @@ This repository presents a complete data warehousing and analytics solution, cov
 ## Data Architecture
 
 The project follows the Medallion Architecture with Bronze, Silver, and Gold layers.
-
+![Data Architecture](docs/data_architecture.png)
 1. Bronze Layer: Stores raw data as received from source systems. Data is ingested from CSV files into a SQL Server database.  
 2. Silver Layer: Performs data cleansing, standardization, and transformation to prepare data for analysis.  
 3. Gold Layer: Contains business-ready data modeled using a star schema optimized for reporting and analytics.
@@ -68,7 +68,7 @@ For detailed requirements, refer to docs/requirements.md.
 ---
 
 ## Repository Structure
-
+```
 data-warehouse-project/
 │
 ├── datasets/                           Raw datasets used for the project (ERP and CRM data)
@@ -91,7 +91,7 @@ data-warehouse-project/
 ├── README.md                           Project overview and instructions
 ├── .gitignore                          Files excluded from version control
 └── requirements.txt                    Project dependencies
-
+```
 ---
 
 ## About This Project
